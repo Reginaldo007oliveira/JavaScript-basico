@@ -1,6 +1,6 @@
-function sayHello(name){
-    console.log('Hello   ' + name)
+function sayHello(nome, segundoNome){
+    console.log('Hello ' + nome + ' ' + segundoNome)
    
 }
 
-sayHello("Simara");
+sayHello("Simara","da Silva");
