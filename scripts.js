@@ -45,7 +45,14 @@ console.log(x%=y)
 // negação = !
 
 
-
+var numero = 1;
+ numero = 0;
+//=== exatamente igual
+if (numero === 1){
+    console.log ("num é igual a 1")
+} else {
+    console.log("num é igual a 5")
+}
 
 
 
