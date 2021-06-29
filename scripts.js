@@ -1,8 +1,6 @@
-var i = 1;
+function sayHello(){
+    console.log('Hello')
+   
+}
 
-do{
-    console.log(i);
-    i++; //primeiro incrementa
-} 
-
-while (i<=10); // E depois executa
+sayHello();
