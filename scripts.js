@@ -50,8 +50,11 @@ var numero = 1;
 //=== exatamente igual
 if (numero === 1){
     console.log ("num é igual a 1")
-} else {
-    console.log("num é igual a 5")
+} else if (numero == 2) {
+    console.log("num é igual a 2")
+}
+else{
+    console.log("num é 5")
 }
 
 
