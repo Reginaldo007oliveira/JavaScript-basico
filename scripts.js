@@ -1,11 +1,13 @@
-function sayHello(nome, segundoNome){
-    console.log('Hello ' + nome + ' ' + segundoNome)
-   
+class Book {
+    constructor (title, author, pages){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
+    }
+    
+    read(){
+return `Estou lendo ${this.title}`
+    }
 }
-
-sayHello("Simara","da Silva");
-
-function sum(a,b){
-    return a+b;
-}
-console.log(sum(40,50));
+ let book = new Book('Algoritmos para viver', 'Brian', 500);
+ console.log(book.read())
