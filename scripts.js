@@ -23,5 +23,5 @@ constructor( title, author, pages, technology){
 
  }
 
- let itBook = new ITbook('bora bora ', 'Britins', 800, 'algoritimos');
+ let itBook = new ITbook('bora borads ', 'Britins', 800, 'algoritimos');
  console.log(itBook)
