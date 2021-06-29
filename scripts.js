@@ -1,27 +1,14 @@
-class Book {
-    constructor (title, author, pages){
-        this.title = title;
-        this.author = author;
-        this.pages = pages;
+class Person {
+    constructor(name){
+        this._name = name;
     }
-    
-    read(){
-return `Estou lendo ${this.title}`
+    get name(){
+        return this._name;
+    }
+    set name(value){ // seta o valor para  SI
+        this._name = value;
     }
 }
- let book = new Book('Algoritmos para viver', 'Brian', 500);
- let otherbook = new Book('bora bora ', 'Britins', 5800);
- console.log(book,otherbook)
-
-
- class ITbook extends Book{  //passa a herança
-constructor( title, author, pages, technology){
-    super(title,author, pages);
-    this.technology = technology;
-
-}
-
- }
-
- let itBook = new ITbook('bora borads ', 'Britins', 800, 'algoritimos');
- console.log(itBook)
+let person = new Person('Simara');
+person.name = 'Si' // Resgata o valor de set
+console.log(person.name)
