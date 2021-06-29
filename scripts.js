@@ -10,4 +10,5 @@ return `Estou lendo ${this.title}`
     }
 }
  let book = new Book('Algoritmos para viver', 'Brian', 500);
- console.log(book)
+ let otherbook = new Book('bora bora ', 'Britins', 5800);
+ console.log(book,otherbook)
