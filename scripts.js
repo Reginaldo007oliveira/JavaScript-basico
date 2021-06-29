@@ -1,6 +1,6 @@
-function sayHello(){
-    console.log('Hello')
+function sayHello(name){
+    console.log('Hello   ' + name)
    
 }
 
-sayHello();
+sayHello("Simara");
