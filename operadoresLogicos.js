@@ -38,7 +38,7 @@ console.log((x %= y));
 // != diferente de
 // < ou <= meno ou menor e igual
 // > maior ou maior e igual
-
+//maior igual
 //Operadores lógicos
 // e = &&
 // ou =||
